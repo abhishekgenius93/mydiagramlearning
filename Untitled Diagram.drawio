@@ -1,1 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T09:38:46.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.1.3" etag="rb8LEbjtGx5PnaOu8pxP" type="github"><diagram id="Y7TT3dfzBDA7L0gsIYyR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-21T11:55:38.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="UQgqirXfJLzVUsUUJFUA" version="17.1.3" type="github">
+  <diagram id="Y7TT3dfzBDA7L0gsIYyR" name="Page-1">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-1" target="wChrkoqlWcKzIYZ2-mHe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-2" target="wChrkoqlWcKzIYZ2-mHe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-2" value="Read SAP Safety Stock number from spreadsheet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-3" value="Read first row of SAP Safety Stock number from spreadsheet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-16" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-15">
+          <mxGeometry x="-0.204" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-4" target="wChrkoqlWcKzIYZ2-mHe-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="440" />
+              <mxPoint x="350" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-21" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-20">
+          <mxGeometry x="-0.2182" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-4" value="Is SAP safety stock &amp;gt;0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-6" target="wChrkoqlWcKzIYZ2-mHe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-6" value="Read second row of SAP Safety Stock number from spreadsheet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-17" target="wChrkoqlWcKzIYZ2-mHe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-31" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-29">
+          <mxGeometry x="-0.2646" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-17" target="wChrkoqlWcKzIYZ2-mHe-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-32" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-30">
+          <mxGeometry x="0.0183" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-17" value="Does Sum of WIS and Top &amp;gt;0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-33" value="New VSF = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-41" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-36">
+          <mxGeometry x="0.1631" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-39" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-37">
+          <mxGeometry x="0.1079" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-35" value="Does Sug. SS 12 months &amp;lt; SAP Safety stock?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-44" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-42">
+          <mxGeometry x="-0.2272" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wChrkoqlWcKzIYZ2-mHe-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-45" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wChrkoqlWcKzIYZ2-mHe-43">
+          <mxGeometry x="-0.3049" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-38" value="Does 12 Months Bucket &amp;gt;=3 and 6 month bracket&amp;gt;0 and SAP SStk =0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="770" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-40" value="New VSF = VSF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-46" value="New VSF =&amp;nbsp;&lt;span style=&quot;color: rgb(163 , 21 , 21) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;Sug SS 12 mths&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-47" value="New VSF = VSF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wChrkoqlWcKzIYZ2-mHe-48" value="STOP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
